@@ -31,6 +31,7 @@ break;
     console.log("you got it wrong, you now have", lives, "lives left");
 }if (lives === 0 ){
     console.log("XXX GAME OVER XXX");
+    //need to add somthing that stops the code from running if lives = 0 
 }
 console.log("Here is the second questions for history");
     console.log(questions[6][0]);
@@ -130,6 +131,7 @@ break;
     console.log("you got it wrong, you now have", lives, "lives left");
 }if (lives === 0 ){
     console.log("XXX GAME OVER XXX");
+    return;
 }
 console.log("Here is the fifth questions for history");
     console.log(questions[9][0]);
@@ -164,6 +166,7 @@ break;
     
 }if (lives === 0 ){
     console.log("XXX GAME OVER XXX");
+    return;
 }
 }
 
