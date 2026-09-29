@@ -21,3 +21,7 @@ function getAnswer(){
 getAnswer();
 console.log("Score " + score);
 console.log("Lives" + lives);
+
+if (lives === 0 ){
+    console.log("XXX GAME OVER XXX");
+}
