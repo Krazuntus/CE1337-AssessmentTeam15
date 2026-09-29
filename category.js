@@ -34,8 +34,7 @@ switch(categoryChoice){
         
         default:
             console.log("Invalid category. Choose 1-4.");
-        
+        chooseCategory();
     }
 }
 
-chooseCategory();
