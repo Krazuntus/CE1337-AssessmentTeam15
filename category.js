@@ -9,6 +9,8 @@ let categories = [
     "4.Sports",
 ];
 
+let startQuestion;
+
 function chooseCategory(){
     console.log("\n=== CHOOSE CATEGORY ===");
     console.log("1.Geography " + categories [0]); // remember to add names to categories
@@ -21,15 +23,19 @@ let categoryChoice = prompt.question("Choose chategory (1-4)");
 switch(categoryChoice){
     case "1":
         console.log("Your choice is " + categories[0]);
+        startQuestion = 0;
         break;
     case "2":
         console.log("Your choice is " + categories[1]);
+        startQuestion = 5;
         break;
     case "3":
         console.log("Your choice is " + categories[2]);
+        startQuestion = 10;
         break;
     case "4":
         console.log("Your choice is " + categories[3]);
+        startQuestion = 15;
         break;   
         
         default:
