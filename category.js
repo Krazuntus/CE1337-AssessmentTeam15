@@ -3,18 +3,18 @@ const prompt = require("readline-sync");
 //1Darray
 
 let categories = [
-    "1.", // will have to add category names later
-    "2.",
-    "3.",
-    "4.",
+    "1.Geography", // will have to add category names later
+    "2.History",
+    "3.Films/TV",
+    "4.Sports",
 ];
 
 function chooseCategory(){
     console.log("\n=== CHOOSE CATEGORY ===");
-    console.log("1. " + categories [0]); // remember to add names to categories
-    console.log("2. " + categories [1]);
-    console.log("3. " + categories [2]);
-    console.log("4. " + categories [3]);
+    console.log("1.Geography " + categories [0]); // remember to add names to categories
+    console.log("2.History " + categories [1]);
+    console.log("3.Films/TV " + categories [2]);
+    console.log("4.Sports " + categories [3]);
 
 let categoryChoice = prompt.question("Choose chategory (1-4)");
 
