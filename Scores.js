@@ -1,18 +1,20 @@
 const promt = require("readline-sync");
 
+let Score = 0; //declared now work adapted from Gamesdevelopment NC Course
 let wrongAnswer = "Wrong Answer";
 let correctAnswer = "Right Answer"
-let Score = 0;
-let currentIndex = 0;
-let lives = 0;
 
 
-//When answer is correct 
-lives--;
+function checkscore() {
 
 //when answer is incorrect
-{if correctAnswer = score++;
-
-else if wrongAnswer = score;
+if (correctAnswer == "Right Answer") {
+    Score++; 
 }
-
+    
+else if (wrongAnswer == "Wrong Answer") {
+    Score = Score; //stay same
+}
+    console.log("Your current score is: " + Score);
+    return Score;
+}
