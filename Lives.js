@@ -6,6 +6,10 @@ let Score = 0;
 let wrongAnswer = "Wrong Answer";
 let correctAnswer = "Right Answer"
 
+
+//When answer not correct
+lives--;
+
 function checklives();
 
 if (wrongAnswer !== correctAnswer){
