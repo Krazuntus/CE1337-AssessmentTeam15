@@ -10,11 +10,11 @@ function showMenu(){
     switch(menuChoice){
         case "1":
             console.log("Starting your game!");
-            //welcomePlayer() // function added by me in different js
+            welcomePlayer() // function added by me in different js
             break;
         
         case "2":
-            //showRules(); // function added by me in different js    
+            showRules(); // function added by me in different js    
             break;
 
         default: 
