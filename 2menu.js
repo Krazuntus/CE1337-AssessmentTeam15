@@ -1,4 +1,3 @@
-const prompt = require("readline-sync");
 
 function showMenu(){
     console.log("\n=== MAIN MENU===");
@@ -10,11 +9,12 @@ function showMenu(){
     switch(menuChoice){
         case "1":
             console.log("Starting your game!");
-            welcomePlayer() // function added by me in different js
+            //welcomePlayer() // function added by me in different js
             break;
         
         case "2":
-            showRules(); // function added by me in different js    
+            showRules(); // function added by me in different js  
+            showMenu();  
             break;
 
         default: 
@@ -22,4 +22,3 @@ function showMenu(){
 
     }
 }
-showMenu();
