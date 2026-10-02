@@ -1,1 +1,0 @@
-prompt = require ("readline-sync");
