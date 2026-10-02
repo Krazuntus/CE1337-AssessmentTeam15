@@ -9,4 +9,3 @@ function showRules(){
     console.log("Answer using capital letters A, B, C, D");
     console.log("Have fun and stay alive!");
 }
-showRules();
