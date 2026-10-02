@@ -36,15 +36,15 @@ function showRules(){
     console.log("\n=== GAME RULES ===");
     console.log("You start the game with 3 lives");
     console.log("You choose category (1-4) and answer all 5 question ");
-    console.log("Correct answer gives you 100$");
-    console.log("wrong answer means you loose 1 life");
+    console.log("Correct answer gives you $100");
+    console.log("Wrong answer means you loose 1 life");
     console.log("Answer using capital letters A, B, C, D");
     console.log("Have fun and stay alive!");
 }
 
 //the array for the questions in the geography category
 let questions = Array() 
-questions [0] = ["what is the capital of Australia","Melbourn", "Perth", "Sydney", "cannebra", "D"];//cannebra
+questions [0] = ["what is the capital of Australia","Melbourn", "Perth", "Sydney", "Cannebra", "D"];//cannebra
 questions [1] = ["In what country is mount Everest in?", "Japan", "Mongolia", "Nepal", "Argentina", "C"];//nepal
 questions [2] = ["What are the primary colours of the flag of Bahrain?", "green & red", "orange % yellow", "green & white", "red & white", "D"];//red and white 
 questions [3] = ["In what country would you find the kremlin?","Russia", "Ukraine", "Belarus", "Georgia", "A"];//russia
@@ -58,7 +58,7 @@ questions [9] = ["What year was the moon landing?", 1955, 1984, 1969, 1990, "C"]
 //the array for the tv/movies category
 questions [10] = ["In what year was Harry Potter and the Philosopher's Stone released?", 2001, 2007, 2013, 2005, "A"];//2001
 questions [11] = ["How many Back to the Future movies were made?", 2, 3, 4, 5, "B"];//3
-questions [12] = ["Who played the character Rose in the movie,Titanic?","Kate Winslet","Gloria Stuart","Kirsten Dunst","Matt Damon", "A" ];//kate winslet 
+questions [12] = ["Who played the character Rose in the movie, Titanic?","Kate Winslet","Gloria Stuart","Kirsten Dunst","Matt Damon", "A" ];//kate winslet 
 questions [13] = ["How many oscars did the movie Oppenheimer get at the 2024 Oscars", 5, 7, 10, 11, "B"];//7
 questions [14] = ["What movie has made the most money of all time in sales?", "Avatar", "Avengers Endgame", "Titanic", "Star Wars: The Force Awakens ", "A"];//avatar
 //the array for sports category
