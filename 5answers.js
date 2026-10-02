@@ -1,7 +1,4 @@
-// answer.js
-const prompt = require("readline-sync")
-let score = 0;
-let lives = 3;
+
 function getAnswer(question){
     let answer;
 //keps asking until a b c d is choosen toUpperCase helps with lower case input to still be considered
